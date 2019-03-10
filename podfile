@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+xcodeproj 'BackgroundQueue.xcodeproj'
+
+platform :ios, '8.0'
+
+def base_pods
+
+    pod 'AFNetworking', '~> 3.0'
+
+end
+
+target ‘BackgroundQueue’ do
+
+    base_pods
+end
